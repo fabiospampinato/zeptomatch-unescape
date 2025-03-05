@@ -7,7 +7,7 @@ Removing escape sequences is useful in combination with [`zeptomatch-is-static`]
 ## Install
 
 ```sh
-npm install --save zeptomatch-unescape
+npm install zeptomatch-unescape
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save zeptomatch-unescape
 ```ts
 import unescape from 'zeptomatch-unescape';
 
-// Remove escapes from a glob
+// Removing escapes from a glob
 
 unescape ( 'foo*bar?' ); //=> 'foo*bar?'
 unescape ( 'foo\\*bar\\?' ); //=> 'foo*bar?'
