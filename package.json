@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/zeptomatch-unescape",
   "description": "A little utility for removing escape sequences from a glob.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
